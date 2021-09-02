@@ -1,0 +1,228 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rafael.apluse"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:5:5-27:19
+15        android:allowBackup="true"
+15-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/80787f40600162477d25c9abc2b09ad1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.APluse" >
+24-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:11:9-44
+25        <activity
+25-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:12:9-20:20
+26            android:name="com.rafael.apluse.activities.LogInActivity"
+26-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:13:13-53
+27            android:exported="true" >
+27-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:14:13-36
+28            <intent-filter>
+28-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:15:13-19:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:16:17-69
+29-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:18:17-77
+31-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:18:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:21:9-23:39
+35            android:name="com.rafael.apluse.activities.SignUpActivity"
+35-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:22:13-54
+36            android:exported="true" />
+36-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:23:13-36
+37        <activity
+37-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:24:9-26:38
+38            android:name="com.rafael.apluse.activities.HomeActivity"
+38-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:25:13-52
+39            android:exported="true" />
+39-->/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/AndroidManifest.xml:26:13-36
+40        <activity
+40-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+41            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+41-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+42            android:excludeFromRecents="true"
+42-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+43            android:exported="true"
+43-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+44            android:launchMode="singleTask"
+44-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+45-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+46            <intent-filter>
+46-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+47                <action android:name="android.intent.action.VIEW" />
+47-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+47-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+49-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+50                <category android:name="android.intent.category.BROWSABLE" />
+50-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+50-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+51
+52                <data
+52-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+53                    android:host="firebase.auth"
+53-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+54                    android:path="/"
+54-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+55                    android:scheme="genericidp" />
+55-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+59            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+59-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+63-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+64            <intent-filter>
+64-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+65-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+67-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+68-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+69
+70                <data
+70-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+71                    android:host="firebase.auth"
+71-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+72                    android:path="/"
+72-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+73                    android:scheme="recaptcha" />
+73-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+74            </intent-filter>
+75        </activity>
+76
+77        <service
+77-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+78            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+78-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+79            android:enabled="true"
+79-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+81            <intent-filter>
+81-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+82                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+82-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+84-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+85            </intent-filter>
+86        </service>
+87        <service
+87-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:74:9-80:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:75:13-84
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+92-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-firestore:23.0.3] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0847f267ae8f4179253f41684a046f71/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+95                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+95-->[com.google.firebase:firebase-firestore:23.0.3] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0847f267ae8f4179253f41684a046f71/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-firestore:23.0.3] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0847f267ae8f4179253f41684a046f71/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/70be382e80a6a564f7efa778c2e2f0e4/transformed/jetified-firebase-database-ktx-20.0.1/AndroidManifest.xml:15:13-17:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+98-->[com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/70be382e80a6a564f7efa778c2e2f0e4/transformed/jetified-firebase-database-ktx-20.0.1/AndroidManifest.xml:16:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/70be382e80a6a564f7efa778c2e2f0e4/transformed/jetified-firebase-database-ktx-20.0.1/AndroidManifest.xml:17:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+101                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+101-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-database:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/5be3b8e8d413c97ca21016afc99f244f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:32:13-34:85
+104                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+104-->[com.google.firebase:firebase-database:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/5be3b8e8d413c97ca21016afc99f244f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:33:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-database:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/5be3b8e8d413c97ca21016afc99f244f/transformed/jetified-firebase-database-20.0.1/AndroidManifest.xml:34:17-82
+106        </service>
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/04734857b5ed174dc0953427412d8a79/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+112
+113        <provider
+113-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+114            android:name="com.google.firebase.provider.FirebaseInitProvider"
+114-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+115            android:authorities="com.rafael.apluse.firebaseinitprovider"
+115-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+117            android:exported="false"
+117-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+118            android:initOrder="100" />
+118-->[com.google.firebase:firebase-common:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fda62ea292ca95dbe070662929235f36/transformed/firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/d62d21780e50c1cee65a5c4902f77159/transformed/play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/d62d21780e50c1cee65a5c4902f77159/transformed/play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:17.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/d62d21780e50c1cee65a5c4902f77159/transformed/play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+123    </application>
+124
+125</manifest>

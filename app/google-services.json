@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735979355723",
+    "project_id": "aplus-c742d",
+    "storage_bucket": "aplus-c742d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735979355723:android:35c143b82a563e118157ce",
+        "android_client_info": {
+          "package_name": "com.rafael.apluse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735979355723-ijmge4733gejk48kf34hp8c7m5pm3cep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpIl60L9JCd9hS6YQpNH5OUCGy_dIzV0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735979355723-ijmge4733gejk48kf34hp8c7m5pm3cep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

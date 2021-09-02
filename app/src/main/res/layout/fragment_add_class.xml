@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AddClassFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/btnAddClassBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_keyboard_backspace_24"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textColor="@color/primary"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/class_txt"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnAddClassBack" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView2" >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etClassName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/class_name"
+                android:textColorHint="@color/gray"
+                app:boxStrokeColor="@color/gray"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapCharacters"
+                    android:textColor="@color/gray" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etProName"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/professor_name"
+                android:textColorHint="@color/gray"
+                app:boxStrokeColor="@color/gray"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/gray" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Dates"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="4"
+                android:columnOrderPreserved="false"
+                android:paddingTop="10dp"
+                android:rowCount="2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/monCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    app:cardCornerRadius="4dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvMonCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mon"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tueCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    app:cardCornerRadius="4dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvTueCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tue"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wedCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvWedCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Wed"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/thuCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    android:padding="5dp"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvThuCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Thu"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/friCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    android:padding="5dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvFriCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Fri"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/satCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    app:cardCornerRadius="4dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvSatCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sat"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sunCV"
+                    android:layout_width="76dp"
+                    android:layout_height="69dp"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/white"
+                    >
+                    <TextView
+                        android:id="@+id/tvSunCV"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sun"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Colors"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                />
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="3"
+                android:columnOrderPreserved="false"
+                android:paddingTop="10dp"
+                android:rowCount="2"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightBlue"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="7dp"
+                    android:backgroundTint="@color/lightBlue"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightYellow"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="7dp"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/lightYellow"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightPur"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginStart="30dp"
+                    android:elevation="7dp"
+                    android:backgroundTint="@color/lightPurple"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightRed"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="7dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/lightRed"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightCyan"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="7dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="30dp"
+                    android:backgroundTint="@color/lightCyan"
+                    />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLightGreen"
+                    android:layout_width="102dp"
+                    android:layout_height="89dp"
+                    app:cardCornerRadius="4dp"
+                    android:elevation="7dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/lightGreen"
+                    />
+
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/btnCreateClass"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/create_class"
+                android:textAllCaps="false"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

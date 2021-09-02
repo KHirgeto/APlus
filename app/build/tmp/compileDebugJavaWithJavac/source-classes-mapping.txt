@@ -1,0 +1,20 @@
+com/rafael/apluse/classes/Date.java
+ com.rafael.apluse.classes.Date
+com/rafael/apluse/BuildConfig.java
+ com.rafael.apluse.BuildConfig
+com/rafael/apluse/classes/StudentClass.java
+ com.rafael.apluse.classes.StudentClass
+com/rafael/apluse/classes/Task.java
+ com.rafael.apluse.classes.Task
+com/rafael/apluse/adapters/ClassAdapter.java
+ com.rafael.apluse.adapters.ClassAdapter
+ com.rafael.apluse.adapters.ClassAdapter$1
+ com.rafael.apluse.adapters.ClassAdapter$ViewHolder
+com/rafael/apluse/classes/Student.java
+ com.rafael.apluse.classes.Student
+com/rafael/apluse/classes/TinyDB.java
+ com.rafael.apluse.classes.TinyDB
+com/rafael/apluse/adapters/TaskAdapter.java
+ com.rafael.apluse.adapters.TaskAdapter
+ com.rafael.apluse.adapters.TaskAdapter$1
+ com.rafael.apluse.adapters.TaskAdapter$ViewHolder

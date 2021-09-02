@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">APluse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="task_name">Task Name</string>
+    <string name="task_description">Task Description</string>
+    <string name="select_your_class">Select your class</string>
+    <string name="select_due_date">Select due date</string>
+    <string name="create_task">Create Task</string>
+    <string name="due_date">Due Date</string>
+    <string name="class_txt">Class</string>
+    <string name="task">Task</string>
+    <string name="create_class">Create Class</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="hello_name">Hello Name</string>
+    <string name="hyper_link">Hyper Link</string>
+    <string name="coming_up">Coming Up</string>
+    <string name="class_name">Class Name</string>
+    <string name="professor_name">Professor Name</string>
+    <string name="aug_29_2021">Aug 29, 2021</string>
+</resources>

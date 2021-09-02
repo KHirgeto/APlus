@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86'
+ninja: no work to do.

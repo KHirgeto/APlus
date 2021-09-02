@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/classRVCardView"
+    android:layout_width="154dp"
+    android:layout_height="162dp"
+    android:layout_marginStart="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    android:clipToPadding="false"
+    android:layout_marginTop="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/tvClassNameHomeRVCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CS220"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvProNameHomeRVCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pro. Tom"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

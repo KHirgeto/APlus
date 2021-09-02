@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86",
+  "command": "/Users/ghostkhirgeto/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android26 --gcc-toolchain=/Users/ghostkhirgeto/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ghostkhirgeto/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dapluse_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/apluse.dir/apluse.cpp.o -c /Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/cpp/apluse.cpp",
+  "file": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/cpp/apluse.cpp"
+}
+]
