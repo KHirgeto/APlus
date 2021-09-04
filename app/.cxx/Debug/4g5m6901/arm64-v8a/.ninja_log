@@ -1,3 +1,6 @@
 # ninja log v5
 0	54	1630249636	CMakeFiles/apluse.dir/apluse.cpp.o	a83fbcaaeb0fec18
 55	142	1630249636	/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/cxx/Debug/4g5m6901/obj/arm64-v8a/libapluse.so	8d4471dba6b30fb3
+0	22	0	clean	133c7e01a4125e32
+9	1136	1630783781	CMakeFiles/apluse.dir/apluse.cpp.o	a83fbcaaeb0fec18
+1136	1314	1630783781	/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/cxx/Debug/4g5m6901/obj/arm64-v8a/libapluse.so	8d4471dba6b30fb3

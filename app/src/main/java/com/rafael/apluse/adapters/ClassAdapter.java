@@ -12,13 +12,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.database.annotations.NotNull;
 import com.rafael.apluse.R;
+import com.rafael.apluse.classes.Date;
 import com.rafael.apluse.classes.StudentClass;
 import com.rafael.apluse.classes.TinyDB;
+import com.rafael.apluse.fragments.ClassPageFragment;
 
 import java.util.ArrayList;
 
@@ -35,6 +41,7 @@ public class ClassAdapter extends RecyclerView.Adapter<ClassAdapter.ViewHolder> 
         TextView className;
         TextView proName;
         CardView cardView;
+        ClassPageFragment classPageFragment;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -122,13 +129,42 @@ public class ClassAdapter extends RecyclerView.Adapter<ClassAdapter.ViewHolder> 
                 Log.d("GGGGGXXXXXX",position+"");
                 //tinyDB.putInt("POSITION_KEY",position);
                 String className = classes.get(position).getClassName();
-                tinyDB.putObject("RVOnClickClassName",className);
+                String proName = classes.get(position).getProName();
+                String classBGColor = classes.get(position).getColor();
+                String location = classes.get(position).getLocation();
+                String phoneNumber = classes.get(position).getProPhone();
+                String email = classes.get(position).getProEmail();
+
+                ArrayList<String> dateList = new ArrayList<>();
+
+                for(Date d: classes.get(position).getDate())
+                {
+                    dateList.add(d.getDate());
+                    tinyDB.putListString("DateStringList",dateList);
+
+                }
+
+
+
+                tinyDB.putString("RVOnClickClassName",className);
+                tinyDB.putString("RVOnClickProName",proName);
+                tinyDB.putString("ClickedClassBGColor",classBGColor);
+//                tinyDB.putString("RVOnClickClassLocation",location);
+//                tinyDB.putString("RVOnClickClassPhoneNumber",phoneNumber);
+//                tinyDB.putString("RVOnClickClassEmail",email);
+
 
                 Toast.makeText(view.getContext(),className, Toast.LENGTH_SHORT).show();
                 //tinyDB.putListObject("Services",ArrayList(businesses));
 
-              //  Intent intent = new Intent(mContext, BusinessDetail.class);
-             //   mContext.startActivity(intent);
+                AppCompatActivity activity = (AppCompatActivity) view.getContext();
+                Fragment myFragment = new ClassPageFragment();
+                activity.getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, myFragment).addToBackStack(null).commit();
+
+
+
+//                Intent intent = new Intent(mContext, BusinessDetail.class);
+//                mContext.startActivity(intent);
             }
 
 

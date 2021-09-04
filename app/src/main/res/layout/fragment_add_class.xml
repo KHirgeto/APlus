@@ -65,6 +65,9 @@
                 android:hint="@string/class_name"
                 android:textColorHint="@color/gray"
                 app:boxStrokeColor="@color/gray"
+                app:helperText="*Required"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/gray"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -83,6 +86,72 @@
                 android:hint="@string/professor_name"
                 android:textColorHint="@color/gray"
                 app:boxStrokeColor="@color/gray"
+                app:helperText="*Required"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/gray"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/gray" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etProEmail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/professor_email"
+                android:textColorHint="@color/gray"
+                app:boxStrokeColor="@color/gray"
+                app:helperText="*Optional"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/gray"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/gray" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etProPhone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/professor_phone"
+                android:textColorHint="@color/gray"
+                app:boxStrokeColor="@color/gray"
+                app:helperText="*Optional"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/gray"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/gray" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/etClassLocation"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/class_location"
+                android:textColorHint="@color/gray"
+                app:boxStrokeColor="@color/gray"
+                app:helperText="*Optional"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/gray"
                 >
 
                 <com.google.android.material.textfield.TextInputEditText

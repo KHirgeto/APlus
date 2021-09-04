@@ -101,9 +101,26 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
                 Log.d("GGGGGXXXXXX",position+"");
+                ArrayList<String> dateList = new ArrayList<>();
                 //tinyDB.putInt("POSITION_KEY",position);
                 String className = tasks.get(position).getClassName();
-                tinyDB.putObject("RVOnClickClassName",className);
+//                for(StudentClass c: classes)
+//                {
+//                    if(c.getClassName().equals(className))
+//                    {
+//                        tinyDB.putObject("RVOnClickClassName",c.getClassName());
+//                        tinyDB.putString("ClickedClassProName",c.getProName());
+//                        for(com.rafael.apluse.classes.Date i: c.getDate())
+//                        {
+//                            dateList.add(i.getDate());
+//                            tinyDB.putListString("DateStringList",dateList);
+//                        }
+//                    }
+//                }
+
+
+
+
 
                 Toast.makeText(view.getContext(),className, Toast.LENGTH_SHORT).show();
                 //tinyDB.putListObject("Services",ArrayList(businesses));

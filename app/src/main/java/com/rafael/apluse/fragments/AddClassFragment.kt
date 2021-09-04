@@ -33,6 +33,9 @@ class AddClassFragment : Fragment(R.layout.fragment_add_class) {
     private lateinit var btnBack: LinearLayout
     private lateinit var etClassName: TextInputLayout
     private lateinit var etProName: TextInputLayout
+    private lateinit var etProEmail: TextInputLayout
+    private lateinit var etProPhone: TextInputLayout
+    private lateinit var etLocation: TextInputLayout
     private lateinit var btnCreateClass: Button
     private lateinit var tinyDB: TinyDB
     private lateinit var dates: ArrayList<Date>
@@ -73,6 +76,9 @@ class AddClassFragment : Fragment(R.layout.fragment_add_class) {
         btnCreateClass = view?.findViewById(R.id.btnCreateClass)!!
         etClassName = view?.findViewById(R.id.etClassName)!!
         etProName = view?.findViewById(R.id.etProName)!!
+        etProEmail = view?.findViewById(R.id.etProEmail)!!
+        etProPhone = view?.findViewById(R.id.etProPhone)!!
+        etLocation = view?.findViewById(R.id.etClassLocation)!!
         tinyDB = TinyDB(activity)
 
         monCV = view?.findViewById(R.id.monCV)!!
@@ -106,6 +112,9 @@ class AddClassFragment : Fragment(R.layout.fragment_add_class) {
 
             val CName = etClassName.editText?.text.toString().trim()
             val PName = etProName.editText?.text.toString().trim()
+            val etProEmail = etProEmail.editText?.text.toString().trim()
+            val etProPhone = etProPhone.editText?.text.toString().trim()
+            val etLocation = etLocation.editText?.text.toString().trim()
             val CColor = tinyDB.getString("ClassColor")
             val newClass: StudentClass
 
@@ -113,7 +122,7 @@ class AddClassFragment : Fragment(R.layout.fragment_add_class) {
             {
 
               //  allClassList = ArrayList()
-                newClass = StudentClass(CName,PName,dates,CColor,null)
+                newClass = StudentClass(CName,PName,dates,CColor,null,etProEmail,etProPhone,etLocation)
                 //classList.add(newClass)
                 updateListWithPreviousDate(newClass)
                 //getClassList()?.let { it1 -> allClassList.addAll(it1) }

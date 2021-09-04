@@ -7,16 +7,46 @@ public class StudentClass {
     String className, proName, color;
     ArrayList<Task> tasks;
     ArrayList<Date> dates;
+    String proEmail;
+    String proPhone;
+    String location;
 
     public StudentClass() {
     }
 
-    public StudentClass(String className, String proName, ArrayList<Date> dates, String color, ArrayList<Task> tasks) {
+    public StudentClass(String className, String proName, ArrayList<Date> dates, String color, ArrayList<Task> tasks, String proEmail, String proPhone, String location) {
         this.className = className;
         this.proName = proName;
         this.dates = dates;
         this.color = color;
         this.tasks = tasks;
+        this.proEmail = proEmail;
+        this.proPhone = proPhone;
+        this.location = location;
+    }
+
+    public String getProEmail() {
+        return proEmail;
+    }
+
+    public void setProEmail(String proEmail) {
+        this.proEmail = proEmail;
+    }
+
+    public String getProPhone() {
+        return proPhone;
+    }
+
+    public void setProPhone(String proPhone) {
+        this.proPhone = proPhone;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     public ArrayList<Task> getTasks() {

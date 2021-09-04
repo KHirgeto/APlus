@@ -2008,6 +2008,10 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddClassBack
 id btnAddTaskBack
+id btnClassPageBack
+id btnClassPageCanvas
+id btnClassPageMail
+id btnClassPageMyGoucher
 id btnCreateClass
 id btnCreateTask
 id btnLoginBTN
@@ -2036,6 +2040,7 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id classPageClassInfoCV
 id classRV
 id classRVCardView
 id clearFAB
@@ -2066,6 +2071,7 @@ id cvLightPur
 id cvLightRed
 id cvLightYellow
 id dark
+id dateListView
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2106,10 +2112,13 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etClassLocation
 id etClassName
 id etLoginEmail
 id etLoginPassword
+id etProEmail
 id etProName
+id etProPhone
 id etSignUpEmail
 id etSignUpName
 id etSignUpPasswordET
@@ -2652,10 +2661,12 @@ string appbar_scrolling_view_behavior
 string aug_29_2021
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string canvas
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string class_location
 string class_name
 string class_txt
 string clear_text_end_icon_content_description
@@ -2693,12 +2704,14 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hello_name
 string hide_bottom_view_on_scroll_behavior
 string hyper_link
 string icon_content_description
 string item_view_role_description
 string login
+string mail
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2754,6 +2767,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string my_goucher
 string name
 string password
 string password_toggle_content_description
@@ -2761,7 +2775,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string professor_email
 string professor_name
+string professor_phone
 string project_id
 string search_menu_title
 string select_due_date

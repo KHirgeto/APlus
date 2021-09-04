@@ -1,1 +1,0 @@
-/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/cpp/CMakeLists.txt
