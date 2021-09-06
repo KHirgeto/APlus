@@ -1,6 +1,7 @@
 package com.rafael.apluse.adapters;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,13 +11,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.gson.Gson;
 import com.rafael.apluse.R;
 import com.rafael.apluse.classes.StudentClass;
+import com.rafael.apluse.classes.SubTask;
 import com.rafael.apluse.classes.Task;
 import com.rafael.apluse.classes.TinyDB;
+import com.rafael.apluse.fragments.ClassPageFragment;
+import com.rafael.apluse.fragments.TaskViewFragment;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -73,8 +80,24 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         Task currentTask = tasks.get(position);
 //        StudentClass currentClass  = classes.get(position);
         String className = currentTask.getClassName();
+        String taskName = currentTask.getTaskName();
+        String taskDesc = currentTask.getTaskDesc();
+        String taskDDay = currentTask.getTaskDueDate();
+        Date taskDDate = currentTask.getDueDate();
+        ArrayList<SubTask> subTasks = currentTask.getSubTasks();
         className = className.substring(1, className.length() - 1);
         StudentClass currentClass;
+
+
+        tinyDB.putString("currentTaskCName",className);
+        tinyDB.putString("currentTaskTName",taskName );
+        tinyDB.putString("currentTaskTDesc",taskDesc );
+        tinyDB.putString("currentTaskTDDay",taskDDay );
+        tinyDB.putObject("currentTaskTDDate",taskDDate);
+        saveSubTasks(subTasks);
+
+
+
 
         for(StudentClass c: classes)
         {
@@ -104,6 +127,14 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
                 ArrayList<String> dateList = new ArrayList<>();
                 //tinyDB.putInt("POSITION_KEY",position);
                 String className = tasks.get(position).getClassName();
+
+                AppCompatActivity activity = (AppCompatActivity) view.getContext();
+                Fragment myFragment = new TaskViewFragment();
+                activity.getSupportFragmentManager().beginTransaction().replace(R.id.flFragment, myFragment).addToBackStack(null).commit();
+
+
+
+
 //                for(StudentClass c: classes)
 //                {
 //                    if(c.getClassName().equals(className))
@@ -151,7 +182,22 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         }
     }
 
-
+    private void saveSubTasks(ArrayList<SubTask> subTasks) {
+//        val sharedPreference: SharedPreferences? = activity?.getSharedPreferences("sharedPreferencesClass",
+//                AppCompatActivity.MODE_PRIVATE
+//        )
+        SharedPreferences sharedPreference = mContext.getSharedPreferences("sharedPreferencesSubTask",AppCompatActivity.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreference.edit();
+        Gson gson = new Gson();
+        String json = gson.toJson(subTasks);
+        editor.putString("SubTasks",json);
+        editor.apply();
+//        val editor: SharedPreferences.Editor? = sharedPreference?.edit()
+//        val gson = Gson()
+//        val json : String = gson.toJson(classList)
+//        editor?.putString("classList",json)
+//        editor?.apply()
+    }
 //    public void filterZipCodeList(@NotNull ArrayList<Business> filteredList) {
 //        businesses = filteredList;
 //        notifyDataSetChanged();

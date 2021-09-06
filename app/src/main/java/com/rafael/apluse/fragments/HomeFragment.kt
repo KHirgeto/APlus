@@ -58,6 +58,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         userName = view?.findViewById(R.id.tvHomeFragUserName)!!
 
         tinyDB = TinyDB(activity)
+        localClassList = ArrayList()
+        localTaskList = ArrayList()
+
 
         addFAB.visibility = View.VISIBLE
         clearFAB.visibility = View.GONE
@@ -98,7 +101,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     }
 
     private fun getTaskDataAndCallRV() {
-        localTaskList = ArrayList()
         mFireStore.collection("students")
             .get()
             .addOnSuccessListener { queryDocumentSnapshots ->
@@ -116,13 +118,13 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     if(students[i].uid == uid)
                     {
                         //Add the students class list from FBDB to classList and save it.
-                        if(students[i].taskList == null)
+                        if(students[i].taskList == null )
                         {
                             Toast.makeText(activity,"You haven't added your class yet, please add your class", Toast.LENGTH_SHORT).show()
                         }
                         else
                         {
-                            localClassList.addAll(students[i].classList)
+                          //  localClassList.addAll(students[i].classList)
                             localTaskList.addAll(students[i].taskList)
                             upDateTaskRV(localTaskList, localClassList)
                         }
@@ -132,7 +134,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private fun getDataAndCallRV() {
 
-        localClassList = ArrayList()
         mFireStore.collection("students")
             .get()
             .addOnSuccessListener { queryDocumentSnapshots ->
@@ -198,7 +199,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                         val layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL, false)
                         taskRV.layoutManager = layoutManager
                         taskRVAdapter =  TaskAdapter(activity,localTakList, localClassList)
-
                         taskRV.adapter = taskRVAdapter
                     }
                     else

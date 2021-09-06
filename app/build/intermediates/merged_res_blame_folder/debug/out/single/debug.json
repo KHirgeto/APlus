@@ -12,12 +12,12 @@
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_done_check_icon.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_done_check_icon.xml"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
@@ -28,48 +28,24 @@
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_add_class.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_add_class.xml"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_home.xml"
-    },
-    {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_top_curve_bg.xml.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/top_curve_bg.xml"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-ldpi_canvas_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-ldpi/canvas_icon.png"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xxhdpi_mygoucher_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xxhdpi/mygoucher_icon.png"
-    },
-    {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_baseline_keyboard_backspace_24.xml.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_mail_icon.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_mail_icon.xml"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xhdpi_canvas_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xhdpi/canvas_icon.png"
-    },
-    {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xhdpi_mygoucher_icon.png.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xhdpi/mygoucher_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_delete_icon.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_delete_icon.xml"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_class_page_card_design.xml.flat",
@@ -80,8 +56,8 @@
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-mdpi/mygoucher_icon.png"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_task_card_design.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/task_card_design.xml"
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_simple_list_item_multiple_choice.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/simple_list_item_multiple_choice.xml"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -94,26 +70,6 @@
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-mdpi_canvas_icon.png.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-mdpi/canvas_icon.png"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_mygoucher_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xxxhdpi/mygoucher_icon.png"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-ldpi_mygoucher_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-ldpi/mygoucher_icon.png"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_baseline_clear_24.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_baseline_clear_24.xml"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_canvas_icon.png.flat",
@@ -136,12 +92,88 @@
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-hdpi/mygoucher_icon.png"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-hdpi_canvas_icon.png.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-hdpi/canvas_icon.png"
-    },
-    {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_activity_log_in.xml.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/activity_log_in.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_class_page.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_class_page.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_add_class.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_add_class.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-ldpi_canvas_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-ldpi/canvas_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_layout_chip_entry.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/layout_chip_entry.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xxhdpi_mygoucher_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xxhdpi/mygoucher_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_mail_icon.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_mail_icon.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xhdpi_canvas_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xhdpi/canvas_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_add_sub_task_icon.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_add_sub_task_icon.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_task_card_design.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/task_card_design.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_mygoucher_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-xxxhdpi/mygoucher_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-ldpi_mygoucher_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-ldpi/mygoucher_icon.png"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_baseline_clear_24.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable-hdpi_canvas_icon.png.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable-hdpi/canvas_icon.png"
     },
     {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_add_task.xml.flat",
@@ -156,19 +188,15 @@
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_plus_24.xml"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_list_item.xml.flat",
         "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/list_item.xml"
     },
     {
-        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_class_page.xml.flat",
-        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_class_page.xml"
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/drawable_ic_circle_stack.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/drawable/ic_circle_stack.xml"
+    },
+    {
+        "merged": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/merged_res/debug/layout_fragment_task_view.xml.flat",
+        "source": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/res/layout/fragment_task_view.xml"
     }
 ]

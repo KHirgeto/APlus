@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APluse</string>
+    <string name="task_name">課題名</string>
+    <string name="task_description">課題の詳細</string>
+    <string name="select_your_class">クラスの選択</string>
+    <string name="select_due_date">締め切りの選択</string>
+    <string name="create_task">課題をつくる</string>
+    <string name="due_date">締め切り</string>
+    <string name="class_txt">授業</string>
+    <string name="task">課題</string>
+    <string name="create_class">クラスを作る</string>
+    <string name="name">名前</string>
+    <string name="email">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+    <string name="hello_name">こんにちは　名前</string>
+    <string name="hyper_link">ハイパーリンク</string>
+    <string name="coming_up">次</string>
+    <string name="class_name">授業名</string>
+    <string name="professor_name">教授の名前</string>
+    <string name="aug_29_2021">2021年8月29日</string>
+    <string name="professor_phone">教授の電話番号</string>
+    <string name="professor_email">教授のメールアドレス</string>
+    <string name="class_location">教室</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mail">メール</string>
+    <string name="canvas">キャンバス</string>
+    <string name="my_goucher">マイガウチャー</string>
+    <string name="sub_task">サブタスク</string>
+</resources>

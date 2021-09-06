@@ -12,9 +12,15 @@ com/rafael/apluse/adapters/ClassAdapter.java
  com.rafael.apluse.adapters.ClassAdapter
  com.rafael.apluse.adapters.ClassAdapter$1
  com.rafael.apluse.adapters.ClassAdapter$ViewHolder
+com/rafael/apluse/adapters/AddTaskAdapter.java
+ com.rafael.apluse.adapters.AddTaskAdapter
+ com.rafael.apluse.adapters.AddTaskAdapter$1
+ com.rafael.apluse.adapters.AddTaskAdapter$ViewHolder
 com/rafael/apluse/classes/Student.java
  com.rafael.apluse.classes.Student
 com/rafael/apluse/classes/TinyDB.java
  com.rafael.apluse.classes.TinyDB
+com/rafael/apluse/classes/SubTask.java
+ com.rafael.apluse.classes.SubTask
 com/rafael/apluse/classes/StudentClass.java
  com.rafael.apluse.classes.StudentClass

@@ -310,6 +310,7 @@
         <enum name="skipped" value="3"/>
     </attr>
     <attr format="reference" name="linearProgressIndicatorStyle"/>
+    <attr format="reference" name="lottieAnimationViewStyle"/>
     <attr format="reference" name="materialButtonOutlinedStyle"/>
     <attr format="reference" name="materialButtonStyle"/>
     <attr format="reference" name="materialButtonToggleGroupStyle"/>
@@ -516,6 +517,7 @@
     <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
     <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="deleteColor">#F58181</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -555,6 +557,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="doneColor">#24EFAC</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
@@ -1095,6 +1098,7 @@
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="lottie_layer_name" type="id"/>
     <item name="material_clock_face" type="id"/>
     <item name="material_value_index" type="id"/>
     <item name="motion_base" type="id"/>
@@ -1341,6 +1345,7 @@
     <string name="select_due_date">Select due date</string>
     <string name="select_your_class">Select your class</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sub_task">Sub-Task</string>
     <string name="task">Task</string>
     <string name="task_description">Task Description</string>
     <string name="task_name">Task Name</string>
@@ -7332,6 +7337,11 @@
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
+    <declare-styleable name="CountdownView"><attr format="boolean" name="isHideTimeBackground"/><attr format="boolean" name="isShowTimeBgDivisionLine"/><attr format="color" name="timeBgDivisionLineColor"/><attr format="dimension" name="timeBgDivisionLineSize"/><attr format="color" name="timeBgColor"/><attr format="dimension" name="timeBgSize"/><attr format="dimension" name="timeBgRadius"/><attr format="boolean" name="isTimeTextBold"/><attr format="dimension" name="timeTextSize"/><attr format="color" name="timeTextColor"/><attr format="boolean" name="isShowDay"/><attr format="boolean" name="isShowHour"/><attr format="boolean" name="isShowMinute"/><attr format="boolean" name="isShowSecond"/><attr format="boolean" name="isShowMillisecond"/><attr format="boolean" name="isConvertDaysToHours"/><attr format="boolean" name="isSuffixTextBold"/><attr format="dimension" name="suffixTextSize"/><attr format="color" name="suffixTextColor"/><attr format="string" name="suffix"/><attr format="string" name="suffixDay"/><attr format="string" name="suffixHour"/><attr format="string" name="suffixMinute"/><attr format="string" name="suffixSecond"/><attr format="string" name="suffixMillisecond"/><attr name="suffixGravity">
+            <enum name="top" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr><attr format="dimension" name="suffixLRMargin"/><attr format="dimension" name="suffixDayLeftMargin"/><attr format="dimension" name="suffixDayRightMargin"/><attr format="dimension" name="suffixHourLeftMargin"/><attr format="dimension" name="suffixHourRightMargin"/><attr format="dimension" name="suffixMinuteLeftMargin"/><attr format="dimension" name="suffixMinuteRightMargin"/><attr format="dimension" name="suffixSecondLeftMargin"/><attr format="dimension" name="suffixSecondRightMargin"/><attr format="dimension" name="suffixMillisecondLeftMargin"/><attr format="boolean" name="isShowTimeBgBorder"/><attr format="color" name="timeBgBorderColor"/><attr format="dimension" name="timeBgBorderSize"/><attr format="dimension" name="timeBgBorderRadius"/></declare-styleable>
     <declare-styleable name="CustomAttribute">
         <attr format="string" name="attributeName"/>
         <attr format="string" name="methodName"/>
@@ -7913,6 +7923,33 @@
 
 <attr format="boolean" name="circleCrop"/>
 </declare-styleable>
+    <declare-styleable name="LottieAnimationView">
+        <attr format="string" name="lottie_fileName"/>
+        <attr format="reference" name="lottie_rawRes"/>
+        <attr format="string" name="lottie_url"/>
+        <attr format="reference" name="lottie_fallbackRes"/>
+        <attr format="boolean" name="lottie_autoPlay"/>
+        <attr format="boolean" name="lottie_loop"/>
+        <attr format="enum" name="lottie_repeatMode">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr format="integer" name="lottie_repeatCount"/>
+        <attr format="string" name="lottie_imageAssetsFolder"/>
+        <attr format="float" name="lottie_progress"/>
+        <attr format="boolean" name="lottie_enableMergePathsForKitKatAndAbove"/>
+        <attr format="color" name="lottie_colorFilter"/>
+        <attr format="float" name="lottie_scale"/>
+        <attr format="float" name="lottie_speed"/>
+        <attr format="boolean" name="lottie_cacheComposition"/>
+        <attr format="boolean" name="lottie_ignoreDisabledSystemAnimations"/>
+        <!-- These values must be kept in sync with the RenderMode enum -->
+        <attr format="enum" name="lottie_renderMode">
+            <enum name="automatic" value="0"/>
+            <enum name="hardware" value="1"/>
+            <enum name="software" value="2"/>
+        </attr>
+    </declare-styleable>
     <declare-styleable name="MaterialAlertDialog">
     <attr format="dimension" name="backgroundInsetStart"/>
     <attr format="dimension" name="backgroundInsetTop"/>

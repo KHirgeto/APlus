@@ -7,12 +7,14 @@ INJECTED from /Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/Andro
 MERGED from [androidx.core:core-ktx:1.6.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/bb852b46c7da1354cccea86f3af4668d/transformed/core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7d0e4a1d94641a4ea5adea0362b82d35/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fe80db8319f98a6f292b81560c38ef86/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.7.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0217591d0e031ff8cc71447be85a9b87/transformed/jetified-lottie-3.7.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/8ea362d15cacd8b74288c098dbb273a8/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/872606d1eba1af3ddb45bc27cb6a6fdc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0847f267ae8f4179253f41684a046f71/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/70be382e80a6a564f7efa778c2e2f0e4/transformed/jetified-firebase-database-ktx-20.0.1/AndroidManifest.xml:2:1-21:12
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/2b362c6ff4f237ece3f4965f3b94800c/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.iwgang:countdownview:2.1.6] /Users/ghostkhirgeto/.gradle/caches/transforms-3/27b3f6d33059966984293e3965b1264e/transformed/jetified-countdownview-2.1.6/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0768db0d71b364bd76551b233f268d4a/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/dbb1e0e793bc398e4701acb56ba9b6a9/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
@@ -87,6 +89,8 @@ MERGED from [com.google.android.material:material:1.4.0] /Users/ghostkhirgeto/.g
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7d0e4a1d94641a4ea5adea0362b82d35/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fe80db8319f98a6f292b81560c38ef86/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fe80db8319f98a6f292b81560c38ef86/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.7.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0217591d0e031ff8cc71447be85a9b87/transformed/jetified-lottie-3.7.1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.7.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0217591d0e031ff8cc71447be85a9b87/transformed/jetified-lottie-3.7.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/4795bf5f9b596aed5689de58b8befddc/transformed/firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0847f267ae8f4179253f41684a046f71/transformed/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
@@ -167,6 +171,8 @@ MERGED from [com.google.android.material:material:1.4.0] /Users/ghostkhirgeto/.g
 MERGED from [com.google.android.material:material:1.4.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7d0e4a1d94641a4ea5adea0362b82d35/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fe80db8319f98a6f292b81560c38ef86/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/fe80db8319f98a6f292b81560c38ef86/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.7.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0217591d0e031ff8cc71447be85a9b87/transformed/jetified-lottie-3.7.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.7.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0217591d0e031ff8cc71447be85a9b87/transformed/jetified-lottie-3.7.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/8ea362d15cacd8b74288c098dbb273a8/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/8ea362d15cacd8b74288c098dbb273a8/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/872606d1eba1af3ddb45bc27cb6a6fdc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
@@ -179,6 +185,8 @@ MERGED from [com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirg
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.1] /Users/ghostkhirgeto/.gradle/caches/transforms-3/70be382e80a6a564f7efa778c2e2f0e4/transformed/jetified-firebase-database-ktx-20.0.1/AndroidManifest.xml:6:5-8:41
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/2b362c6ff4f237ece3f4965f3b94800c/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/2b362c6ff4f237ece3f4965f3b94800c/transformed/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.iwgang:countdownview:2.1.6] /Users/ghostkhirgeto/.gradle/caches/transforms-3/27b3f6d33059966984293e3965b1264e/transformed/jetified-countdownview-2.1.6/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.iwgang:countdownview:2.1.6] /Users/ghostkhirgeto/.gradle/caches/transforms-3/27b3f6d33059966984293e3965b1264e/transformed/jetified-countdownview-2.1.6/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/7e936a6711e2577d3f277e5d672ed2f5/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/ghostkhirgeto/.gradle/caches/transforms-3/0768db0d71b364bd76551b233f268d4a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41

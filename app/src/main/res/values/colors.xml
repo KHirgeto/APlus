@@ -18,6 +18,8 @@
     <color name="primaryVariant">#5749ff</color>
     <color name="gray">#707070</color>
     <color name="transparent">#00000000</color>
+    <color name="doneColor">#24EFAC</color>
+    <color name="deleteColor">#F58181</color>
 
 
 </resources>

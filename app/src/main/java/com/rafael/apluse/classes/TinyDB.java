@@ -12,12 +12,16 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Map;
 
 public class TinyDB {
@@ -326,5 +330,10 @@ public class TinyDB {
         if (value == null){
             throw new NullPointerException();
         }
+    }
+
+    @Nullable
+    public Date getObject(@NotNull String s, @NotNull Class<Date> java) {
+        return null;
     }
 }

@@ -1,2 +1,3 @@
 ninja: Entering directory `/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86_64'
-ninja: no work to do.
+[1/2] Building CXX object CMakeFiles/apluse.dir/apluse.cpp.o
+[2/2] Linking CXX shared library /Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/cxx/Debug/4g5m6901/obj/x86_64/libapluse.so

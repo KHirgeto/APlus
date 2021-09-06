@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/ghostkhirgeto/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/ghostkhirgeto/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "apluse-Debug-x86_64": {
+      "artifactName": "apluse",
+      "buildCommandComponents": [
+        "/Users/ghostkhirgeto/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/.cxx/Debug/4g5m6901/x86_64",
+        "apluse"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/ghostkhirgeto/Documents/AppFolder/APluse/app/build/intermediates/cxx/Debug/4g5m6901/obj/x86_64/libapluse.so",
+      "runtimeFiles": []
+    }
+  }
+}

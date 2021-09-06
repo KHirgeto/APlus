@@ -21,6 +21,7 @@ import android.content.Intent
 import android.net.Uri
 import android.content.pm.PackageManager
 import android.graphics.Color
+import android.util.Log
 
 
 class ClassPageFragment : Fragment(R.layout.fragment_class_page) {
@@ -55,6 +56,8 @@ class ClassPageFragment : Fragment(R.layout.fragment_class_page) {
         listView = view?.findViewById(R.id.dateListView)!!
         btnBack = view?.findViewById(R.id.btnClassPageBack)!!
         classInfoBGCV = view?.findViewById(R.id.classPageClassInfoCV)!!
+        localTaskList = ArrayList()
+        localClassList = ArrayList()
 
         tinyDB = TinyDB(activity)
 
@@ -164,7 +167,7 @@ class ClassPageFragment : Fragment(R.layout.fragment_class_page) {
     }
 
     private fun showData(clickedClassName: String?, clickedProName: String?, clickedDateList: ArrayList<String>?, classBgColor: String?) {
-        Toast.makeText(activity, "TTTTTTTTTTTTTTTTT$clickedClassName",Toast.LENGTH_SHORT).show()
+       // Toast.makeText(activity, "Thisone$clickedClassName",Toast.LENGTH_SHORT).show()
 
         tvCName.text = clickedClassName
         tvPName.text = clickedProName
@@ -179,10 +182,9 @@ class ClassPageFragment : Fragment(R.layout.fragment_class_page) {
 
     private fun getDataAndUpdate(clickedClassName: String?) {
 
-        //Toast.makeText(activity, "TTTTTTTTTTTTTTTTT$clickedClassName",Toast.LENGTH_SHORT).show()
+      //  Toast.makeText(activity, "TTTTTTTTTTTTTTTTT$clickedClassName",Toast.LENGTH_SHORT).show()
 
-        localClassList = ArrayList()
-        localTaskList = ArrayList()
+        //localClassList = ArrayList()
         dateList = ArrayList()
         mFireStore.collection("students")
             .get()
@@ -208,14 +210,19 @@ class ClassPageFragment : Fragment(R.layout.fragment_class_page) {
                         }
                         else
                         {
+                            localClassList.clear()
+                           // Log.d("LLLLLLLLLLLLL", localClassList.toString())
+                            Toast.makeText(activity,localClassList.toString(),Toast.LENGTH_SHORT).show()
+
                             localClassList.addAll(students[i].classList)
                           //  localTaskList.addAll(students[i].taskList)
 
                             for (i in students[i].taskList)
                             {
-                                if (i.className.equals("\""+clickedClassName+"\""))
+                                if (i.className.equals(clickedClassName))
                                 {
                                      localTaskList.add(i)
+
                                 }
                             }
 //                            for (i in localClassList)

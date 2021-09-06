@@ -511,8 +511,19 @@ attr indicatorInset
 attr indicatorSize
 attr initialActivityCount
 attr insetForeground
+attr isConvertDaysToHours
+attr isHideTimeBackground
 attr isLightTheme
 attr isMaterialTheme
+attr isShowDay
+attr isShowHour
+attr isShowMillisecond
+attr isShowMinute
+attr isShowSecond
+attr isShowTimeBgBorder
+attr isShowTimeBgDivisionLine
+attr isSuffixTextBold
+attr isTimeTextBold
 attr itemBackground
 attr itemFillColor
 attr itemHorizontalPadding
@@ -639,6 +650,24 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_ignoreDisabledSystemAnimations
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -880,9 +909,27 @@ attr subtitleCentered
 attr subtitleTextAppearance
 attr subtitleTextColor
 attr subtitleTextStyle
+attr suffix
+attr suffixDay
+attr suffixDayLeftMargin
+attr suffixDayRightMargin
+attr suffixGravity
+attr suffixHour
+attr suffixHourLeftMargin
+attr suffixHourRightMargin
+attr suffixLRMargin
+attr suffixMillisecond
+attr suffixMillisecondLeftMargin
+attr suffixMinute
+attr suffixMinuteLeftMargin
+attr suffixMinuteRightMargin
+attr suffixSecond
+attr suffixSecondLeftMargin
+attr suffixSecondRightMargin
 attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
+attr suffixTextSize
 attr suggestionRowLayout
 attr switchMinWidth
 attr switchPadding
@@ -981,6 +1028,16 @@ attr tickMark
 attr tickMarkTint
 attr tickMarkTintMode
 attr tickVisible
+attr timeBgBorderColor
+attr timeBgBorderRadius
+attr timeBgBorderSize
+attr timeBgColor
+attr timeBgDivisionLineColor
+attr timeBgDivisionLineSize
+attr timeBgRadius
+attr timeBgSize
+attr timeTextColor
+attr timeTextSize
 attr tint
 attr tintMode
 attr title
@@ -1122,6 +1179,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color deleteColor
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1164,6 +1222,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color doneColor
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1843,9 +1902,13 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_sub_task_icon
 drawable ic_baseline_clear_24
 drawable ic_baseline_keyboard_backspace_24
+drawable ic_circle_stack
 drawable ic_clock_black_24dp
+drawable ic_delete_icon
+drawable ic_done_check_icon
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1909,8 +1972,10 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SubTaskChipGroup
 id TOP_END
 id TOP_START
+id TVSubTask
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1990,6 +2055,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2008,12 +2074,15 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddClassBack
 id btnAddTaskBack
+id btnBackTaskView
 id btnClassPageBack
 id btnClassPageCanvas
 id btnClassPageMail
 id btnClassPageMyGoucher
 id btnCreateClass
 id btnCreateTask
+id btnDeleteTaskView
+id btnDoneTaskView
 id btnLoginBTN
 id btnLoginCreateANewAccount
 id btnLoginForgotPassword
@@ -2024,6 +2093,7 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id cardView
 id carryVelocity
 id cbLoginRememberMe
 id center
@@ -2031,6 +2101,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
@@ -2039,6 +2110,10 @@ id chip2
 id chip3
 id chip_group
 id chronometer
+id circleDelViewEnd
+id circleDelViewStart
+id circleDonViewEnd
+id circleDonViewStart
 id circle_center
 id classPageClassInfoCV
 id classRV
@@ -2059,11 +2134,13 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id countdownView
 id counterclockwise
 id currentState
 id custom
 id customPanel
 id cut
+id cvAddWorkHistory
 id cvLightBlue
 id cvLightCyan
 id cvLightGreen
@@ -2122,6 +2199,7 @@ id etProPhone
 id etSignUpEmail
 id etSignUpName
 id etSignUpPasswordET
+id etSubTaskAddTask
 id etTaskDescription
 id etTaskName
 id exitUntilCollapsed
@@ -2150,6 +2228,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hardware
 id header_title
 id hideable
 id home
@@ -2183,6 +2262,8 @@ id line3
 id linear
 id listMode
 id list_item
+id lottie_layer_name
+id lvSubTaskTaskView
 id masked
 id match_constraint
 id match_parent
@@ -2281,6 +2362,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2327,6 +2410,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -2415,9 +2499,11 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tueCV
+id tvCNameTaskView
 id tvCPageCName
 id tvCPageProName
 id tvClassNameHomeRVCard
+id tvDDayTaskView
 id tvFriCV
 id tvHomeFragUserName
 id tvMonCV
@@ -2425,6 +2511,8 @@ id tvProNameHomeRVCard
 id tvSatCV
 id tvSelectDueDate
 id tvSunCV
+id tvTDescTaskView
+id tvTNameTaskView
 id tvThuCV
 id tvTueCV
 id tvWedCV
@@ -2546,7 +2634,9 @@ layout fragment_add_class
 layout fragment_add_task
 layout fragment_class_page
 layout fragment_home
+layout fragment_task_view
 layout home_class_card_design
+layout layout_chip_entry
 layout list_item
 layout material_chip_input_combo
 layout material_clock_display
@@ -2609,6 +2699,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout simple_list_item_multiple_choice
 layout support_simple_spinner_dropdown_item
 layout task_card_design
 layout test_action_chip
@@ -2783,6 +2874,7 @@ string search_menu_title
 string select_due_date
 string select_your_class
 string status_bar_notification_info_overflow
+string sub_task
 string task
 string task_description
 string task_name
@@ -3557,6 +3649,7 @@ styleable ConstraintOverride android_orientation android_id android_visibility a
 styleable ConstraintSet android_orientation android_id android_visibility android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_maxWidth android_maxHeight android_minWidth android_minHeight android_pivotX android_pivotY android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_layout_marginStart android_layout_marginEnd android_translationZ android_elevation ConstraintRotate animateCircleAngleTo animateRelativeTo barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl constraint_referenced_ids constraint_referenced_tags deriveConstraintsFrom drawPath flow_firstHorizontalBias flow_firstHorizontalStyle flow_firstVerticalBias flow_firstVerticalStyle flow_horizontalAlign flow_horizontalBias flow_horizontalGap flow_horizontalStyle flow_lastHorizontalBias flow_lastHorizontalStyle flow_lastVerticalBias flow_lastVerticalStyle flow_maxElementsWrap flow_verticalAlign flow_verticalBias flow_verticalGap flow_verticalStyle flow_wrapMode layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBaseline_toBottomOf layout_constraintBaseline_toTopOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTag layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBaseline layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop layout_marginBaseline layout_wrapBehaviorInParent motionProgress motionStagger pathMotionArc pivotAnchor polarRelativeTo quantizeMotionSteps transitionEasing transitionPathRotate
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
+styleable CountdownView isConvertDaysToHours isHideTimeBackground isShowDay isShowHour isShowMillisecond isShowMinute isShowSecond isShowTimeBgBorder isShowTimeBgDivisionLine isSuffixTextBold isTimeTextBold suffix suffixDay suffixDayLeftMargin suffixDayRightMargin suffixGravity suffixHour suffixHourLeftMargin suffixHourRightMargin suffixLRMargin suffixMillisecond suffixMillisecondLeftMargin suffixMinute suffixMinuteLeftMargin suffixMinuteRightMargin suffixSecond suffixSecondLeftMargin suffixSecondRightMargin suffixTextColor suffixTextSize timeBgBorderColor timeBgBorderRadius timeBgBorderSize timeBgColor timeBgDivisionLineColor timeBgDivisionLineSize timeBgRadius timeBgSize timeTextColor timeTextSize
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton collapsedSize elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
@@ -3587,6 +3680,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

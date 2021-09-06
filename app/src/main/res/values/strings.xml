@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">APluse</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="task_name">Task Name</string>
     <string name="task_description">Task Description</string>
     <string name="select_your_class">Select your class</string>
@@ -24,9 +23,12 @@
     <string name="professor_phone">Professor Phone</string>
     <string name="professor_email">Professor Email</string>
     <string name="class_location">Class Location</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mail">Mail</string>
     <string name="canvas">Canvas</string>
     <string name="my_goucher">My Goucher</string>
+    <string name="sub_task">Sub-Task</string>
+
+
+<!--///////////////////////// Things bellow this line ha not been translated \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 </resources>

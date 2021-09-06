@@ -149,9 +149,9 @@ public class ClassAdapter extends RecyclerView.Adapter<ClassAdapter.ViewHolder> 
                 tinyDB.putString("RVOnClickClassName",className);
                 tinyDB.putString("RVOnClickProName",proName);
                 tinyDB.putString("ClickedClassBGColor",classBGColor);
-//                tinyDB.putString("RVOnClickClassLocation",location);
-//                tinyDB.putString("RVOnClickClassPhoneNumber",phoneNumber);
-//                tinyDB.putString("RVOnClickClassEmail",email);
+                tinyDB.putString("RVOnClickClassLocation",location);
+                tinyDB.putString("RVOnClickClassPhoneNumber",phoneNumber);
+                tinyDB.putString("RVOnClickClassEmail",email);
 
 
                 Toast.makeText(view.getContext(),className, Toast.LENGTH_SHORT).show();

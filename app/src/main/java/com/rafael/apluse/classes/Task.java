@@ -1,21 +1,32 @@
 package com.rafael.apluse.classes;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Task {
 
     String taskName,taskDesc, className, taskDueDate;
+    ArrayList<SubTask> subTasks;
     java.util.Date dueDate;
 
     public Task() {
     }
 
-    public Task(String taskName, String taskDesc, String className,String taskDueDate, java.util.Date dueDate) {
+    public Task(String taskName, String taskDesc, String className,String taskDueDate, java.util.Date dueDate, ArrayList<SubTask> subTasks) {
         this.taskName = taskName;
         this.taskDesc = taskDesc;
         this.className = className;
         this.dueDate = dueDate;
         this.taskDueDate = taskDueDate;
+        this.subTasks = subTasks;
+    }
+
+    public ArrayList<SubTask> getSubTasks() {
+        return subTasks;
+    }
+
+    public void setSubTasks(ArrayList<SubTask> subTasks) {
+        this.subTasks = subTasks;
     }
 
     public String getTaskName() {
